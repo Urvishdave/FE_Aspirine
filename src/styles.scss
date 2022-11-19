@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'manrope';
+    // font-family: 'manrope';
     color: var(--primary);
 }
 
@@ -39,47 +39,47 @@ ol {
 }
 
 /* =====  Local font style start ===== */
-@font-face {
-    font-family: 'manrope';
-    src: url(assets/fonts/Manrope-ExtraLight.woff2);
-    font-weight: 200;
-}
+// @font-face {
+//     font-family: 'manrope';
+//     src: url(assets/fonts/Manrope-ExtraLight.woff2);
+//     font-weight: 200;
+// }
 
-@font-face {
-    font-family: 'manrope';
-    src: url(assets/fonts/Manrope-Light.woff2);
-    font-weight: 300;
-}
+// @font-face {
+//     font-family: 'manrope';
+//     src: url(assets/fonts/Manrope-Light.woff2);
+//     font-weight: 300;
+// }
 
-@font-face {
-    font-family: 'manrope';
-    src: url(assets/fonts/Manrope-Regular.woff2);
-    font-weight: 400;
-}
+// @font-face {
+//     font-family: 'manrope';
+//     src: url(assets/fonts/Manrope-Regular.woff2);
+//     font-weight: 400;
+// }
 
-@font-face {
-    font-family: 'manrope';
-    src: url(assets/fonts/Manrope-Medium.woff2);
-    font-weight: 500;
-}
+// @font-face {
+//     font-family: 'manrope';
+//     src: url(assets/fonts/Manrope-Medium.woff2);
+//     font-weight: 500;
+// }
 
-@font-face {
-    font-family: 'manrope';
-    src: url(assets/fonts/Manrope-SemiBold.woff2);
-    font-weight: 600;
-}
+// @font-face {
+//     font-family: 'manrope';
+//     src: url(assets/fonts/Manrope-SemiBold.woff2);
+//     font-weight: 600;
+// }
 
-@font-face {
-    font-family: 'manrope';
-    src: url(assets/fonts/Manrope-Bold.woff2);
-    font-weight: 700;
-}
+// @font-face {
+//     font-family: 'manrope';
+//     src: url(assets/fonts/Manrope-Bold.woff2);
+//     font-weight: 700;
+// }
 
-@font-face {
-    font-family: 'manrope';
-    src: url(assets/fonts/Manrope-ExtraBold.woff2);
-    font-weight: 800;
-}
+// @font-face {
+//     font-family: 'manrope';
+//     src: url(assets/fonts/Manrope-ExtraBold.woff2);
+//     font-weight: 800;
+// }
 
 
 /* =====  Local font style end ===== */
@@ -480,7 +480,7 @@ ol {
 /* =====  Agriculture section style start ===== */
 
 .Agriculture-section {
-    background-image: url(../src/assets/images/agriculture-bg.png);
+    //background-image: url(../src/assets/images/agriculture-bg.png);
     width: 100%;
     padding: 10rem 0;
     background-position: center center;
@@ -526,7 +526,7 @@ ol {
 }
 
 .about-banner {
-    background-image: url(../src/assets/images/about-us.png);
+    //background-image: url(../src/assets/images/about-us.png);
     background-repeat: no-repeat;
     background-position: right center;
 }
@@ -563,7 +563,7 @@ ol {
 }
 
 .full-about-wrapper {
-    background-image: url(../src/assets/images/about-land.png);
+    // //background-image: url(../src/assets/images/about-land.png);
     width: 100%;
     height: 632px;
     background-size: cover;
@@ -725,7 +725,7 @@ ol {
 }
 
 .tranding-section-bg {
-    background-image: url(../src/assets/images/tranding-main-bg.png);
+    //background-image: url(../src/assets/images/tranding-main-bg.png);
     display: flex;
     align-items: center;
 }
@@ -742,7 +742,7 @@ ol {
 
 /* =====  careers page style start ===== */
 .careers-section {
-    background-image: url(../src/assets/images/careers_hero.jpg);
+    // //background-image//background-image: url(../src/assets/images/careers_hero.jpg);
     width: 100%;
     padding: 10rem 0;
     background-position: center center;
