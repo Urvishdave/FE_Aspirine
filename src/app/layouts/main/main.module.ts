@@ -18,6 +18,5 @@ import { FooterModule } from "./footer/footer.module";
 })
 export class MainModule {
     constructor(){
-        debugger
     }
  }
