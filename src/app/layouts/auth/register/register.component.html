@@ -1,0 +1,24 @@
+<form [formGroup]="registerForm" (ngSubmit)="FormSubmit()">
+    <div class="container">
+        <div class ="row">
+            <div class=" col-lg-6 form-group clearfix">
+                <input name="first_name" formControlName="first_name"  type="text" class="form-control" placeholder="First Name" aria-label="First Name">
+            </div>
+            <div class=" col-lg-6 form-group clearfix">
+                <input name="last_name" formControlName="last_name"  type="text" class="form-control" placeholder="Last Name" aria-label="Last Name">
+            </div>
+            <div class=" col-lg-6 form-group clearfix">
+                <input name="mobile_number" formControlName="mobile_number"  type="text" class="form-control" placeholder="+918123456789" aria-label="Phone">
+            </div>
+            <div class=" col-lg-6 form-group clearfix">
+                <input name="email" formControlName="email" type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+            </div>
+            <div class=" col-lg-6 form-group clearfix">
+                <input name="password" formControlName="password" type="password" class="form-control" autocomplete="off" placeholder="Password" aria-label="Password">
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" [disabled] ="!registerForm.valid"  class="btn btn-lg btn-primary btn-theme"><span>Register</span></button>
+    </div>
+</form>
